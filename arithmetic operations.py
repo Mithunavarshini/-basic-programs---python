@@ -1,17 +1,17 @@
 #getting user inputs
 
-num1 = input ("Enter the num :")
-num2 = input ("Enter the num :")
+num1 = int(input ("Enter the num :"))
+num2 = int(input ("Enter the num :"))
 
 #performing arithmetic operations
 
-sum = float(num1) + float(num2)
+sum = num1 + num2
 
-min = float(num1) - float(num2)
+min = num1 - num2
 
-mul = float(num1) * float(num2)
+mul = num1 * num2
 
-div = float(num1) / float(num2)
+div = num1 / num2
 
 #printing the results
 
